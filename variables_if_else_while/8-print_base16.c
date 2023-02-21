@@ -11,12 +11,12 @@ int main(void)
 	char c;
 
 	for (num = 0; num < 10; num++)
-		puthcar((num % 10) + '0');
+		putchar((num % 10) + '0');
 
 	for (c = 'a'; c <= 'f'; c++)
 		putchar(c);
 
 	putchar('\n');
 
-	Return (0);
+	return (0);
 }
