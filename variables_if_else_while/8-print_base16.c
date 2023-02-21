@@ -16,7 +16,7 @@ int main(void)
 	for (c = 'a'; c <= 'f'; c++)
 		putchar (c)
 
-	putchar ('\n')
+	putchar('\n')
 
-	Return : (0);
+	Return (0);
 }
