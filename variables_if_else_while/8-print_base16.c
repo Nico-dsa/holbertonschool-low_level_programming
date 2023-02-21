@@ -8,9 +8,13 @@
 int main(void)
 {
 	int num;
+	char c;
 
-	for (num = 0; num > 16; num--)
+	for (num = 0; num < 10; num++)
 		puthcar ((num % 10) + '0')
+
+	for (c = 'a'; c <= 'f'; c++)
+		putchar (c)
 
 	putchar ('\n')
 
