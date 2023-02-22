@@ -5,7 +5,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @n: The number to be treated
+ * @c: The number to be treated
  *
  * Return: the value of the last digit
  */
