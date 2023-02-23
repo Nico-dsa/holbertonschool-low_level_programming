@@ -1,19 +1,24 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
+#include "main.h"
 /**
- * _isupper - function that checks for uppercase character
- * @c: input
- *
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isupper - Check Holberton
+ * @c: An input character
+ * Description: function _isupper function to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
-		return (1);
-	else
-		return (0);
+char l = (char)c;
+if (isupper(l))
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
