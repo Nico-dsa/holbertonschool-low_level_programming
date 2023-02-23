@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * print_numbers - function that prints the numbers, from 0 to 9, followed by a new line
+ * print_numbers - function that prints the numbers, from 0 to 9
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
  * Return: 0-9 followed by newline
