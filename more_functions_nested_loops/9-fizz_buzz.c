@@ -10,6 +10,7 @@
  * 15 multiples print Fizz instead of number
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int i;
