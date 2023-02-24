@@ -5,8 +5,10 @@
 
 /**
  * Fizz Buzz - program that prints the numbers from 1 to 100
- *
- * Return: 0
+ * 3 multiples print Fizz instead of number
+ * 5 multiples print Fizz instead of number
+ * 15 multiples print Fizz instead of number
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -21,7 +23,7 @@ int main(void)
 		}
 		else if (i % 3 == 0)
 		{
-		        printf("Fizz");
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
