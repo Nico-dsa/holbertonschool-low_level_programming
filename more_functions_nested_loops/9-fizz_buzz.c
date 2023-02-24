@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- * Fizz Buzz - program that prints the numbers from 1 to 100
+ * main - program that prints the numbers from 1 to 100
  * 3 multiples print Fizz instead of number
  * 5 multiples print Fizz instead of number
  * 15 multiples print Fizz instead of number
