@@ -33,7 +33,7 @@ int main(void)
 		}
 		if (i != n)
 		{
-			printf(" ")
+			printf(" ");
 		}
 	}
 	return (0);
