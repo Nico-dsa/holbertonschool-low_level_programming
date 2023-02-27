@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char a = s[0];
 	int c = 0;
