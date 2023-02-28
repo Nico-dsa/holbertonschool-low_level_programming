@@ -11,10 +11,10 @@
 int _atoi(char *s)
 {
 	int x = 0;
-
-  if (atoi(s) != 0)
-    {
-      x = atoi(s);
-    }
- return (x);
+	
+	if (atoi(s) != 0)
+	{
+		x = atoi(s);
+	}
+	return (x);
 }
