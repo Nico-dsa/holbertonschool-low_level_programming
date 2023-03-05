@@ -20,7 +20,7 @@ int _atoi(char *s)
 			b = -b;
 	for (; s[c] && ((s[c] >= '0') && (s[c] <= '9')); c++)
 		a = a * 10 + s[c] - '0';
-	if (c == -1)
+	if (b == -1)
 		a = ~a + 1;
 	return (*((int *) (&a)));
 }
