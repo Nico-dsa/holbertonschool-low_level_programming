@@ -11,11 +11,16 @@
 
 int _atoi(char *s)
 {
-	int x = 0;
-	
-	if (atoi(s) != 0)
-	{
-		x = atoi(s);
-	}
-	return (x);
+	unsigned int a = 0;
+	int b = 1;
+	int c = 0;
+
+	for (; s[c] && !((s[c] >= '0') && (s[c] <= '9')); c++)
+		if (s[c] == '-')
+			b = -b;
+	for (; s[c] && ((s[c] >= '0') && (s[c] <= '9')); c++)
+		a = a * 10 + s[c] - '0';
+	if (c == -1)
+		a = ~a + 1;
+	return (*((int *) (&a)));
 }
