@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	{
 		if (!atoi(argv[i]))
 		{
-			printf("%s\n", "Error");
+			printf("Error");
 			return (1);
 		}
 		sum += atoi(argv[i]);
