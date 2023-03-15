@@ -5,7 +5,7 @@
  * string_nconcat - function that concatenates two strings
  * @s1: input 1
  * @s2: input 2
- * n: s2's number of bytes
+ * @n: s2's number of bytes
  *
  * Return: 0
  */
@@ -17,7 +17,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
-
 	if (s2 == NULL)
 		s2 = "";
 
@@ -29,7 +28,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= j)
 		l = i + j;
-
 	else
 		l = i + n;
 
