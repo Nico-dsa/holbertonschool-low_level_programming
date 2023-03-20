@@ -6,7 +6,7 @@ int get_len(int i);
 char *str_cpy(char *dest, char *src);
 
 /**
- * *new_dot - function that create a new dog
+ * *new_dog - function that create a new dog
  * @name: name dog
  * @age: age dog
  * @owner: owner dog
