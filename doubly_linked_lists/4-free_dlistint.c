@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
-  * free_dlistint - function that frees a dlistint_t list.
-  * @head: head of the linked list
-  * 
-  * Return: 0
-  */
+ * free_dlistint - function that frees a dlistint_t list.
+ * @head: head of the linked list
+ * 
+ * Return: 0
+ */
 
 void free_dlistint(dlistint_t *head)
 {
