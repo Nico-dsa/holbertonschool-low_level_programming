@@ -4,7 +4,6 @@
  * get_dnodeint_at_index - A function that gets a node at index
  * @head: head of the linked list
  * @index: index of node
- * 
  * Return: if the node does not exist, return NULL
  */
 
